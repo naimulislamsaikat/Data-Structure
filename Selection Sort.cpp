@@ -7,10 +7,6 @@ int selection(int arr[], int n){
             if(arr[j+1]<arr[j]){
                 swap(arr[j],arr[j+1]);
             }
-            cout<<"Steps are:\n";
-            for(int j=0; j<n; j++){
-                cout<<arr[j]<<endl;
-            }
         }
     }
 }
